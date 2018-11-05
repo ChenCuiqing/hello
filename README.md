@@ -1,4 +1,4 @@
-Logistic
+logistic
 
 Logistic文件中使用R自带的ISLR包里的Smarket数据，比较R自带glm函数的系数估计法、自行编写的梯度下降法
 以及牛顿迭代法的预测错误率（根据交叉验证输出预测结果的均方误差）
@@ -21,7 +21,7 @@ $error.newton
 
 Subset regression
 
-1.在子集回归中实现交叉验证，结果显示包含12个变量的子集测试均方误差最小
+在子集回归中实现交叉验证，结果显示包含12个变量的子集测试均方误差最小
 
 结果如下：
 $min(cv.error)
@@ -30,5 +30,11 @@ $min(cv.error)
 $which.min(cv.error)
 [1] 12
 
+在投资收益的例子中抽取boostrap样本，编写函数输出boostrap样本估计值
 
-2.在投资收益的例子中抽取boostrap样本，编写函数输出boostrap样本估计值
+
+interation an recursion
+
+
+
+
