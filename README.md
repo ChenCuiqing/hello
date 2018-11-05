@@ -8,6 +8,7 @@ Logistic文件中使用R自带的ISLR包里的Smarket数据，比较R自带glm�
 
 结果如下：
 cv_glm(fomula = Direction~Lag1+Lag2+Lag3+Lag4+Lag5+Volume, x=X, y=y ,data = Smarket, k=10)
+
 $error.glm
 [1] 0.4864
 
