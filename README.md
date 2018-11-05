@@ -24,9 +24,10 @@ Subset regression
 1.在子集回归中实现交叉验证，结果显示包含12个变量的子集测试均方误差最小
 
 结果如下：
-> min(cv.error)
+$min(cv.error)
 [1] 118074.5
-> which.min(cv.error)
+
+$which.min(cv.error)
 [1] 12
 
 
