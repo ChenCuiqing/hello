@@ -38,5 +38,6 @@ $which.min(cv.error)
 另外还包含了自行编写的线性回归模型最小二乘法估计系数的函数
 
 
-
+4  test error of RandomForest for range of values for mtry and ntrees.R
+在这个数据集上画出了用更广范围的mtry和ntree生成的随机森林的测试误差的图
 
